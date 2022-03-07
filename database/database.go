@@ -23,5 +23,3 @@ func Connect() *gorm.DB {
 	return db
 
 }
-
-//tekrardan kaydedebilir msiniz hepsini
