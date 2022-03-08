@@ -7,7 +7,6 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
-//hocam anydeskten dolayı ctrl + s yapamuyorum siz tüm ddosyalrı akydederbilr msiiniz tamamdır hocam
 func main() {
 
 	//database bağlandık
@@ -27,6 +26,6 @@ func main() {
 	Setup(app)
 
 	//app'i başlatıyoruz
-	app.Listen("localhost:3000")
+	app.Listen(":3000")
 
 }

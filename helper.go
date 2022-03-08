@@ -167,6 +167,6 @@ func Logout(c *fiber.Ctx) error {
 
 	//cookieyi ctx'e ekliyoruz
 	c.Cookie(&cookie)
-
+   
 	return c.Status(202).SendString("Success")
 }
